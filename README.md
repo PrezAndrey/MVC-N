@@ -1,2 +1,3 @@
 # MVC-N
-MVC archetecture practice
+MVC architecture practice
+
