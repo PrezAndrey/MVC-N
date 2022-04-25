@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="246" id="9ho-O1-MiG">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="246" id="9ho-O1-MiG" customClass="CommentCell" customModule="MVC_N" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="246"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9ho-O1-MiG" id="KqK-Qd-XYv">
@@ -52,6 +52,10 @@
                                                 <constraint firstItem="TU4-sv-R7r" firstAttribute="top" secondItem="KqK-Qd-XYv" secondAttribute="topMargin" id="wuq-vL-rmi"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lable" destination="TU4-sv-R7r" id="2Yd-dr-FGy"/>
+                                            <outlet property="textView" destination="clk-3U-5iw" id="LAK-Cm-N1z"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
