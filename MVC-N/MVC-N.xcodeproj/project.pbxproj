@@ -56,15 +56,79 @@
 		55B27D6B28168C4100DCB261 /* MVC-N */ = {
 			isa = PBXGroup;
 			children = (
-				55B27D6C28168C4100DCB261 /* AppDelegate.swift */,
-				55B27D6E28168C4100DCB261 /* SceneDelegate.swift */,
-				55B27D7028168C4100DCB261 /* ViewController.swift */,
-				55B27D7228168C4100DCB261 /* Main.storyboard */,
+				55B27D8028168CDF00DCB261 /* Application */,
+				55B27D8428168D1900DCB261 /* Comments */,
 				55B27D7528168C4300DCB261 /* Assets.xcassets */,
-				55B27D7728168C4300DCB261 /* LaunchScreen.storyboard */,
 				55B27D7A28168C4300DCB261 /* Info.plist */,
 			);
 			path = "MVC-N";
+			sourceTree = "<group>";
+		};
+		55B27D8028168CDF00DCB261 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				55B27D8328168D0B00DCB261 /* Model */,
+				55B27D8228168D0500DCB261 /* VIew */,
+				55B27D8128168CFB00DCB261 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		55B27D8128168CFB00DCB261 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55B27D6C28168C4100DCB261 /* AppDelegate.swift */,
+				55B27D6E28168C4100DCB261 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55B27D8228168D0500DCB261 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				55B27D7728168C4300DCB261 /* LaunchScreen.storyboard */,
+				55B27D7228168C4100DCB261 /* Main.storyboard */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		55B27D8328168D0B00DCB261 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55B27D8428168D1900DCB261 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				55B27D8728168D5000DCB261 /* Model */,
+				55B27D8628168D4800DCB261 /* View */,
+				55B27D8528168D3300DCB261 /* Controller */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		55B27D8528168D3300DCB261 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55B27D7028168C4100DCB261 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55B27D8628168D4800DCB261 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55B27D8728168D5000DCB261 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
